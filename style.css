@@ -88,6 +88,7 @@ nav li{
     width: 15rem;
     height: 15rem;
     padding: 110px 5rem 5rem; 
+    border-radius: 50%;
 }
 
 .aboutme{
