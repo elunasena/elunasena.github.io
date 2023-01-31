@@ -124,3 +124,34 @@ nav li{
     font: bold;
 }
 
+.titulo{
+    width: 100%;
+    border: 1px solid;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.are{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    padding: 1rem 0;
+    border: 1px solid;
+}
+
+.img-are{
+    width: 30%;
+    display: grid;
+    padding: 1rem;
+    background-image: url(../Imagenes/ARE-logo.png);
+    justify-content: center;
+    justify-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.are-exp{
+    width: 70%;
+    padding: 1rem;
+    border: 1px solid;
+}
