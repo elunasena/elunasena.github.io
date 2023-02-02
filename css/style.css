@@ -1,5 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Lusitana', serif;
+    font-size: 1.15rem;
 }
 
 header{
@@ -24,6 +26,7 @@ nav{
     position: absolute;
     top: 30px;
     right: 0px;
+    padding-right: 1rem;
 }
 
 nav li{
@@ -50,40 +53,40 @@ nav li{
 }*/
 
 .introduction-left{
-    width: 65%;
+    width: 70%;
     padding: 0 10px 0 80px;
 }
 
 .introduction-left h1{
     color:rgb(0, 0, 0);
-    font-size: 35px;
-    font: bold;
+    font-size: 3rem;
+    font-family: 'Doppio One', sans-serif;
     padding: 110px 0 0 0;
 }
 
 .introduction-left h2{
     color:rgb(176, 217, 130);
-    font-size: 25px;
-    font: bold;
+    font-size: 2rem;
+    font-family: 'Courgette', cursive;
     padding: 10px 0 0 0;
 }
 
 .introduction-left p{
     color:rgb(0, 0, 0);
-    font-size: 15px;
     padding: 10px 0 0 0;
     text-align: justify;
+    line-height: 100%;
 }
 
 .introduction-rigth{
-    width: 35%;
+    width: 30%;
     justify-content: center;
     align-items: center;    
 }
 
 .introduction-rigth img{
-    width: 15rem;
-    height: 15rem;
+    width: 17rem;
+    height: 17rem;
     padding: 110px 5rem 5rem; 
     border-radius: 50%;
 }
@@ -116,7 +119,8 @@ nav li{
 
 .aboutme-right h1{
     padding: 10px 0 0;
-    font: bold;
+    font-family: 'Doppio One', sans-serif;
+    font-size: 2rem;
 }
 
 .aboutme-right p{
@@ -155,3 +159,35 @@ nav li{
     padding: 1rem;
     border: 1px solid;
 }
+
+
+
+
+
+
+
+.contact{
+    background: #5CC7B2;
+    padding: 2rem 1rem;
+    width: auto;
+    height: 250px;
+    display: flex;
+}
+
+.contact-me{
+    width: 30%;
+}
+
+.contact-me .container h1{
+    font-family: 'Doppio One', sans-serif;
+}
+
+
+
+
+
+.call-icon-lkdn{
+    content: "\f0e1"
+}
+
+
