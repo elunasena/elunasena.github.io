@@ -1,15 +1,15 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Lusitana', serif;
     font-size: 1.15rem;
 }
 
-header{
+header {
     background-color: #5CC7B2;
     padding: 10px 20px;
 }
 
-.encabezado{
+.encabezado {
     height: 75px;
     width: 100%;
     display: flex;
@@ -18,32 +18,32 @@ header{
     font: bolder;
 }
 
-.logo{
+.logo {
     height: 75px;
 }
 
-nav{
+nav {
     position: absolute;
     top: 30px;
     right: 0px;
     padding-right: 1rem;
 }
 
-nav li{
+nav li {
     font-weight: bold;
     font-size: 1.2em;
     text-transform: uppercase;
-    display: inline;    
+    display: inline;
     margin: 0 0 0 20px;
 }
 
-.introduction{
+.introduction {
     background-image: url(../Imagenes/bg-header.png);
     background-repeat: no-repeat;
     height: 30 rem;
     background-size: 90% 100%;
     width: auto;
-    display: flex; 
+    display: flex;
 }
 
 /*.img-introduccion{
@@ -52,53 +52,53 @@ nav li{
     width: 100%;
 }*/
 
-.introduction-left{
+.introduction-left {
     width: 70%;
     padding: 0 10px 0 80px;
 }
 
-.introduction-left h1{
-    color:rgb(0, 0, 0);
+.introduction-left h1 {
+    color: rgb(0, 0, 0);
     font-size: 3rem;
     font-family: 'Doppio One', sans-serif;
     padding: 110px 0 0 0;
 }
 
-.introduction-left h2{
-    color:rgb(176, 217, 130);
+.introduction-left h2 {
+    color: rgb(176, 217, 130);
     font-size: 2rem;
     font-family: 'Courgette', cursive;
     padding: 10px 0 0 0;
 }
 
-.introduction-left p{
-    color:rgb(0, 0, 0);
+.introduction-left p {
+    color: rgb(0, 0, 0);
     padding: 10px 0 0 0;
     text-align: justify;
     line-height: 100%;
 }
 
-.introduction-rigth{
+.introduction-rigth {
     width: 30%;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
-.introduction-rigth img{
+.introduction-rigth img {
     width: 17rem;
     height: 17rem;
-    padding: 110px 5rem 5rem; 
+    padding: 110px 5rem 5rem;
     border-radius: 50%;
 }
 
-.aboutme{
+.aboutme {
     height: auto;
-    width: 100%;    
+    width: 100%;
     display: flex;
     padding: 2rem 0;
 }
 
-.aboutme-left{
+.aboutme-left {
     display: flex;
     align-items: center;
     width: 30%;
@@ -106,67 +106,30 @@ nav li{
     float: none;
 }
 
-.aboutme-left img{
+.aboutme-left img {
 
     padding: 10px 0 0 10px;
     width: 15rem;
 }
 
-.aboutme-right{
+.aboutme-right {
     text-align: justify;
     padding: 0 30px 0 20px;
 }
 
-.aboutme-right h1{
+.aboutme-right h1 {
     padding: 10px 0 0;
     font-family: 'Doppio One', sans-serif;
     font-size: 2rem;
 }
 
-.aboutme-right p{
+.aboutme-right p {
     padding: 10px 0 5px;
     font: bold;
 }
 
-.titulo{
-    width: 100%;
-    border: 1px solid;
-    padding: 1rem;
-    display: inline-block;
-}
 
-.are{
-    width: 100%;
-    height: 30rem;
-    display: flex;
-    padding: 1rem 0;
-    border: 1px solid;
-}
-
-.img-are{
-    width: 30%;
-    display: grid;
-    padding: 1rem;
-    background-image: url(../Imagenes/ARE-logo.png);
-    justify-content: center;
-    justify-items: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.are-exp{
-    width: 70%;
-    padding: 1rem;
-    border: 1px solid;
-}
-
-
-
-
-
-
-
-.contact{
+.contact {
     background: #5CC7B2;
     padding: 2rem 1rem;
     width: auto;
@@ -174,11 +137,11 @@ nav li{
     display: flex;
 }
 
-.contact-me{
+.contact-me {
     width: 30%;
 }
 
-.contact-me .container h1{
+.contact-me .container h1 {
     font-family: 'Doppio One', sans-serif;
 }
 
@@ -186,8 +149,6 @@ nav li{
 
 
 
-.call-icon-lkdn{
+.call-icon-lkdn {
     content: "\f0e1"
 }
-
-
